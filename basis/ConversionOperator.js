@@ -1,9 +1,6 @@
 let num = "35asda";
-
 console.log(typeof num);
-
 let Num = Number(num);
-
 console.log(typeof Num);
 console.log(Num); // Output: NaN which means Not a Number
 
@@ -22,3 +19,9 @@ console.log(Boolean(isLoggedIn));
 // null => false
 // undefined => false
 // String => true if it has any character otherwise false
+
+
+/************************ OPERATION ************************/
+let number = 22;
+let NegNum = ~number;
+console.log(NegNum); 
